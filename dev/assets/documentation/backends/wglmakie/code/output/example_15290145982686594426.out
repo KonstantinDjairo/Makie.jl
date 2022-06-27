@@ -1,7 +1,7 @@
 ~~~
-<div id="6943748c-9cfb-4fca-b3e4-a2ac5d8054d3" data-jscall-id="108" style="visibility: hidden;">
+<div id="04610008-398a-4001-ba36-752dd5cc1e2e" data-jscall-id="108" style="visibility: hidden;">
   <div data-jscall-id="103">slider 1: 
-    <input step="1" max="100" min="1" data-jscall-id="104" value="1" oninput="JSServe.update_obs('4285954196825844440', parseFloat(value))" type="range" />
+    <input step="1" max="100" min="1" data-jscall-id="104" value="1" oninput="JSServe.update_obs('10654680344448265225', parseFloat(value))" type="range" />
     <p data-jscall-id="102">1</p>
   </div>
   <script data-jscall-id="105" type="text/javascript">
@@ -20,11 +20,11 @@
 </script>
   <script data-jscall-id="107" type="text/javascript">
 (()=> {
-    JSServe.register_sub_session('6943748c-9cfb-4fca-b3e4-a2ac5d8054d3')
-    const init_data_b64 = 'H4sIAAAAAAAAA8VUQW/TMBgV1/4K37JKa5c4jusgjQOMA5VgoHJDyHLtr8WQ2FHidI0mLuWMBFdugLRyHz+Cv8C/IU1HC6hatXYSPjn63vfZ7z3nzeaZqBIr1Kd3v3d3vmh1STCL4ogEMWU4YqRe/re0GHNXZfA5WmFnl5y/FhNRyFxnrqlyftEfPLAKVpiLwpa5hJ8/cnBlbtCoNNJpa5A1vMyUcHBg4IxPRFJCG523UL2OjrRxkGc2EU6bMbIjdHL6GJl6boGEUci6V5CjfplogZrOAp3Z/A1KbeGSCokCwTQD6UDdbQZKawqHMg4JpGAcOkacQ93I64KDqeP8hf+yQa4wXW0M5M/rYo1e3bD1tjW/6vm4kf78xKZP/uD/NfDxVkmDv+UPe5jiKAgZjWLq+z5m8Sb51QIbBwRT5mNMcEx7jNAw3IRdzP0eBCSiLMaMhgHu0aDnbwbfyNenV7428hzfQ/3BAPIJdJfe8oVnXDiX62FZW71B9kPkFQ4y73A5on1jfclWzYLdqJ3eArVUTPdkdq3D/5OZNvsx2/Ied6T27BaoNb172nb9Dz/bidv7dZaJLEu0FIsk5cqmdUYpK8smuMbgHi4z7H71SB14NCZhjzDZieVo2CEjKTrDEEhHYCEjxfyIqNBrN+n3z9Ru4aoEuhNd6KFOtKvqY7zmKwFvFYQf1rzwehv/AiEXCg9dBgAA'
+    JSServe.register_sub_session('04610008-398a-4001-ba36-752dd5cc1e2e')
+    const init_data_b64 = 'H4sIAAAAAAAAA8VUT2/TMBwV134K37JKa2e7cf4gjQOMA5VgoHJDyHLj34ohsaPY6RYhLuWMBFdugLRyHx+Cr8C3IXNHC6haRTsJnxz5/Z7z3kvebF6KJjdCfnz7a3frs5LfCI5YGCV4ELYroRGjlH0t7IS7poRPbAmeXXD+UkyFzSpVOn/K+flwdM9IWGLOramrDH58r8DVlUYntc6cMhoZzetSCgd7Gk75VOQ1dNHrDmrXwYHSDqrS5MIpPUHmBB0dP0S65bVIaImMewEVGta5EshPWnRqqleoMNblDRIWwVkJmQN52xNmRluHSg45FKAdOkScQzvI2wMHZ47zZ/i5Ry4xfaU1VE/bwxa9fMPOm878aubDWvnzI1M8+k3/F4LpZk/JHwFc0DiOSEpTxigJGYvxIF3nv/TEjCWUJJikJIpZGEYsxevAnpgwguOYJYykcZykUULCnYN9fBWs9+fwDhqORlBNob8Il1+GxoVzlRrXbdZrfN9HgXVQBvsLiu4/Gxxu9IxsJ+34BqQV4mw3ZRsS/p/SlN4xtGu/xy2VPbkBZX5219iu/+NnW4l7t2ozUZa5ysRll3JpiralpMlqX10TcPcXLXa3eSD3AhxGBGOc9AZpInohxqQ3FoOoFzMqJcsyAhSCru+/v1j71jU59KfKqrHKlWvaawL/lEOwrML3K110tU1/AsPJjqdgBgAA'
     JSServe.init_from_b64(init_data_b64)
     if (!true){
-        JSServe.update_obs('7746991362366190766', true)
+        JSServe.update_obs('5516132580019616342', true)
     }
 })()
 </script>
