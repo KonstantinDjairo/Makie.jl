@@ -6,10 +6,12 @@ band(lower, upper; kwargs...)</code></pre><p>Plots a band from <code>ylower</cod
   cycle           [:color =&gt; :patchcolor]
   depth_shift     0.0f0
   diffuse         Float32[0.4, 0.4, 0.4]
+  highclip        MakieCore.Automatic()
   inspectable     true
   interpolate     true
   linewidth       1
-  nan_color       RGBA{Float32}(0.0f0,0.0f0,0.0f0,0.0f0)
+  lowclip         MakieCore.Automatic()
+  nan_color       :transparent
   overdraw        false
   shading         false
   shininess       32.0f0
