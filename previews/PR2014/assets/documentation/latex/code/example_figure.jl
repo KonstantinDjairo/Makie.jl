@@ -1,7 +1,14 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-    scatter(randn(50, 2), axis = (; title = L"\frac{x + y}{\sin(k^2)}"))
+    using CairoMakie
+CairoMakie.activate!() # hide
+
+f = Figure(fontsize = 18)
+t = "text"
+Axis(f[1,1], title=L"Some %$(t) and some math: $\frac{2\alpha+1}{y}$")
+
+f
 end # hide
-save(joinpath(@OUTPUT, "example_270713340373674549.png"), __result; ) # hide
-save(joinpath(@OUTPUT, "example_270713340373674549.svg"), __result; ) # hide
+save(joinpath(@OUTPUT, "example_2351098939088403061.png"), __result; ) # hide
+save(joinpath(@OUTPUT, "example_2351098939088403061.svg"), __result; ) # hide
 nothing # hide

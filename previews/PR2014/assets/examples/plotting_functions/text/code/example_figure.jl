@@ -17,5 +17,5 @@ Legend(f[1, 2], ax)
 f
 end # hide
 save(joinpath(@OUTPUT, "example_7163903792067819962.png"), __result; ) # hide
-
+save(joinpath(@OUTPUT, "example_7163903792067819962.svg"), __result; ) # hide
 nothing # hide
