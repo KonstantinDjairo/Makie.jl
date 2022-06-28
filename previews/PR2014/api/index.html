@@ -558,17 +558,17 @@ an AbstractVector{&lt;:Real} that lists n consecutive edges from low to high, wh
 [2] disconnect!(screen::GLMakie.Screen, ::typeof(Makie.mouse_position)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:240
 [3] disconnect!(screen::GLMakie.Screen, ::typeof(Makie.window_area)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:80
 [4] disconnect!(window::MakieCore.AbstractScreen, signal) in Makie at /home/runner/work/Makie.jl/Makie.jl/src/interaction/events.jl:38
-[5] disconnect!(c::Makie.EmptyCamera) in Makie at /home/runner/work/Makie.jl/Makie.jl/src/camera/camera.jl:32
-[6] disconnect!(window::GLFW.Window, ::typeof(Makie.entered_window)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:311
-[7] disconnect!(window::GLFW.Window, ::typeof(Makie.hasfocus)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:289
-[8] disconnect!(window::GLFW.Window, ::typeof(Makie.scroll)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:266
-[9] disconnect!(window::GLFW.Window, ::typeof(Makie.mouse_position)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:244
-[10] disconnect!(window::GLFW.Window, ::typeof(Makie.unicode_input)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:165
-[11] disconnect!(window::GLFW.Window, ::typeof(Makie.dropped_files)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:142
-[12] disconnect!(window::GLFW.Window, ::typeof(Makie.keyboard_buttons)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:121
-[13] disconnect!(window::GLFW.Window, ::typeof(Makie.mouse_buttons)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:106
-[14] disconnect!(::GLFW.Window, ::typeof(Makie.window_area)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:84
-[15] disconnect!(window::GLFW.Window, ::typeof(Makie.window_open)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:34
+[5] disconnect!(window::GLFW.Window, ::typeof(Makie.entered_window)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:311
+[6] disconnect!(window::GLFW.Window, ::typeof(Makie.hasfocus)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:289
+[7] disconnect!(window::GLFW.Window, ::typeof(Makie.scroll)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:266
+[8] disconnect!(window::GLFW.Window, ::typeof(Makie.mouse_position)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:244
+[9] disconnect!(window::GLFW.Window, ::typeof(Makie.unicode_input)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:165
+[10] disconnect!(window::GLFW.Window, ::typeof(Makie.dropped_files)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:142
+[11] disconnect!(window::GLFW.Window, ::typeof(Makie.keyboard_buttons)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:121
+[12] disconnect!(window::GLFW.Window, ::typeof(Makie.mouse_buttons)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:106
+[13] disconnect!(::GLFW.Window, ::typeof(Makie.window_area)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:84
+[14] disconnect!(window::GLFW.Window, ::typeof(Makie.window_open)) in GLMakie at /home/runner/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:34
+[15] disconnect!(c::Makie.EmptyCamera) in Makie at /home/runner/work/Makie.jl/Makie.jl/src/camera/camera.jl:32
 [16] disconnect!(c::Makie.Camera) in Makie at /home/runner/work/Makie.jl/Makie.jl/src/camera/camera.jl:24</code></pre></div></div><div class="docstring"><div class="doc-header" id="dropped_files"><a href="#dropped_files">dropped_files</a></div><div class="doc-content"><p>Registers a callback for drag and drop of files. returns <code>Observable{Vector{String}}</code>, which are absolute file paths <a href="http://www.glfw.org/docs/latest/group__input.html#gacc95e259ad21d4f666faa6280d4018fd">GLFW Docs</a></p></div></div><div class="docstring"><div class="doc-header" id="ecdfplot"><a href="#ecdfplot">ecdfplot</a></div><div class="doc-content"><pre><code>ecdfplot(values; npoints=10_000[, weights])</code></pre><p>Plot the empirical cumulative distribution function (ECDF) of <code>values</code>.</p><p><code>npoints</code> controls the resolution of the plot. If <code>weights</code> for the values are provided, a weighted ECDF is plotted.</p><h2>Attributes</h2><p>Available attributes and their defaults for <code>MakieCore.Combined{Makie.ecdfplot, T} where T</code> are: </p><pre><code>  color           :black
   colormap        :viridis
   colorrange      MakieCore.Automatic()
